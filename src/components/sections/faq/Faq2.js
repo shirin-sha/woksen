@@ -82,7 +82,7 @@ const Faq2 = ({ type = 1 }) => {
 									<div className="call-box">
 										<h4 className="title">Get Started Consultation! </h4>
 										<span className="call-icon">
-											<i className="tji-email"></i>
+											<i className="tji-envelop-2"></i>
 										</span>
 										<Link className="number" href="mailto:info@woksen.com">
 											<span>info@woksen.com</span>
