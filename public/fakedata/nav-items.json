@@ -1,0 +1,222 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "About Us",
+		"path": "/about"
+	},
+	{
+		"id": 3,
+		"name": "Digital Services",
+		"path": "/digital-services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Web, Mobile & Software Development",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Corporate Websites & CMS", "path": "/services/corporate-websites-cms", "badge": null },
+					{ "id": 2, "name": "eCommerce Websites (Single/Multi-vendor)", "path": "/services/ecommerce-websites", "badge": null },
+					{ "id": 3, "name": "Web Portals (B2B/B2C, customer/supplier portals)", "path": "/services/web-portals", "badge": null },
+					{ "id": 4, "name": "Mobile Apps (iOS/Android)", "path": "/services/mobile-apps", "badge": null },
+					{ "id": 5, "name": "Custom Web Applications (dashboards, admin panels)", "path": "/services/custom-web-applications", "badge": null },
+					{ "id": 6, "name": "API Development & Third-Party Integrations", "path": "/services/api-development", "badge": null }
+				]
+			},
+			{
+				"id": 2,
+				"name": "Cloud, IT Support & Consulting",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "IT Consulting & Technology Roadmap", "path": "/services/it-consulting", "badge": null },
+					{ "id": 2, "name": "IT AMC (Annual Maintenance –remote/on-site)", "path": "/services/it-amc", "badge": null },
+					{ "id": 3, "name": "Domain & DNS Management", "path": "/services/domain-dns", "badge": null },
+					{ "id": 4, "name": "Business Email Setup (Microsoft 365 / Google Workspace)", "path": "/services/business-email", "badge": null },
+					{ "id": 5, "name": "Cloud Hosting (AWS/Azure/GCP), VPS Setup & Migrations", "path": "/services/cloud-hosting", "badge": null },
+					{ "id": 6, "name": "Helpdesk/Ticketing Setup + IT Operations Support", "path": "/services/helpdesk-ticketing", "badge": null }
+				]
+			},
+			{
+				"id": 3,
+				"name": "Cybersecurity & Performance",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Firewall & Network Security Hardening", "path": "/services/firewall-security", "badge": null },
+					{ "id": 2, "name": "Endpoint Security (AV/EDR) rollout", "path": "/services/endpoint-security", "badge": null },
+					{ "id": 3, "name": "VAPT (Vulnerability Assessment & Pen Testing)", "path": "/services/vapt", "badge": null },
+					{ "id": 4, "name": "Server/Application Security Hardening (WordPress, cPanel, Linux)", "path": "/services/server-security", "badge": null },
+					{ "id": 5, "name": "Email Security (SPF/DKIM/DMARC)", "path": "/services/email-security", "badge": null },
+					{ "id": 6, "name": "Backups, Monitoring, CDN/WAF & Performance Optimization", "path": "/services/backups-monitoring", "badge": null }
+				]
+			},
+			{
+				"id": 4,
+				"name": "Digital Marketing, Branding & Growth",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Brand Strategy, Logo & Brand Identity", "path": "/services/brand-strategy", "badge": null },
+					{ "id": 2, "name": "Creative & Collaterals (Graphic Design, Presentations)", "path": "/services/creative-collaterals", "badge": null },
+					{ "id": 3, "name": "Video & Motion Graphics", "path": "/services/video-motion-graphics", "badge": null },
+					{ "id": 4, "name": "SEO (Search Engine Optimization)", "path": "/services/seo", "badge": null },
+					{ "id": 5, "name": "Paid Ads (Google Ads / Search Engine Marketing)", "path": "/services/paid-ads", "badge": null },
+					{ "id": 6, "name": "Growth & Automation (Social Media, Content, Lead Gen, Email Automation, CRO)", "path": "/services/growth-automation", "badge": null }
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Infrastructure Services",
+		"path": "/infrastructure-services",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Network & Cabling",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Structured Cabling (Cat6/Cat6A, Fiber)", "path": "/services/structured-cabling", "badge": null },
+					{ "id": 2, "name": "Network Rack Setup, Patch Panels, Labeling", "path": "/services/network-rack-setup", "badge": null },
+					{ "id": 3, "name": "Switch/Router Configuration", "path": "/services/switch-router-config", "badge": null },
+					{ "id": 4, "name": "Wi-Fi Design & Access Point Deployment", "path": "/services/wifi-design", "badge": null },
+					{ "id": 5, "name": "Site-to-Site VPN & Branch Connectivity", "path": "/services/site-to-site-vpn", "badge": null },
+					{ "id": 6, "name": "Network Testing & Certification", "path": "/services/network-testing", "badge": null }
+				]
+			},
+			{
+				"id": 2,
+				"name": "Servers, Storage & Backup",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "On-Prem Servers Supply & Deployment", "path": "/services/on-prem-servers", "badge": null },
+					{ "id": 2, "name": "NAS/SAN Storage Setup", "path": "/services/nas-san-storage", "badge": null },
+					{ "id": 3, "name": "Virtualization (VMware/Hyper-V/Proxmox)", "path": "/services/virtualization", "badge": null },
+					{ "id": 4, "name": "Backup Solutions & Disaster Recovery Setup", "path": "/services/backup-solutions", "badge": null },
+					{ "id": 5, "name": "Server Room Setup (racks, power coordination)", "path": "/services/server-room-setup", "badge": null },
+					{ "id": 6, "name": "Preventive Maintenance for Server Infrastructure", "path": "/services/server-maintenance", "badge": null }
+				]
+			},
+			{
+				"id": 3,
+				"name": "Office IT & End-User Setup",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Laptops/Desktops Supply & Setup", "path": "/services/laptops-desktops", "badge": null },
+					{ "id": 2, "name": "OS Installation/Imaging & Device Configuration", "path": "/services/os-installation", "badge": null },
+					{ "id": 3, "name": "Printers/Copiers & Scanner Setup", "path": "/services/printers-copiers", "badge": null },
+					{ "id": 4, "name": "Accessories & Business Workstations", "path": "/services/accessories-workstations", "badge": null },
+					{ "id": 5, "name": "Warranty/Spare Parts Coordination", "path": "/services/warranty-spare-parts", "badge": null },
+					{ "id": 6, "name": "On-site IT Support & Maintenance", "path": "/services/onsite-it-support", "badge": null }
+				]
+			},
+			{
+				"id": 4,
+				"name": "Security, POS & Communications",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "CCTV Supply & Installation (NVR/DVR, remote access)", "path": "/services/cctv-installation", "badge": null },
+					{ "id": 2, "name": "Access Control & Biometric Attendance Systems", "path": "/services/access-control", "badge": null },
+					{ "id": 3, "name": "POS Hardware (terminals, barcode scanners, printers, cash drawers)", "path": "/services/pos-hardware", "badge": null },
+					{ "id": 4, "name": "Barcode Label Printers & Handheld Scanners (PDA)", "path": "/services/barcode-printers", "badge": null },
+					{ "id": 5, "name": "IP Telephony / VoIP / PBX (IVR, queues, recording)", "path": "/services/ip-telephony", "badge": null },
+					{ "id": 6, "name": "Intercom & Communication Systems", "path": "/services/intercom-systems", "badge": null }
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Software Products",
+		"path": "/software-products",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Core Business Management",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "ERP System", "path": "/products/erp-system", "badge": null },
+					{ "id": 2, "name": "CRM System", "path": "/products/crm-system", "badge": null },
+					{ "id": 3, "name": "HR & Payroll", "path": "/products/hr-payroll", "badge": null },
+					{ "id": 4, "name": "Accounting / Finance", "path": "/products/accounting-finance", "badge": null }
+				]
+			},
+			{
+				"id": 2,
+				"name": "F&B & Retail Systems",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Restaurant, Café & Food Business Systems", "path": "/products/restaurant-systems", "badge": null },
+					{ "id": 2, "name": "POS System (Grocery & Supermarkets)", "path": "/products/pos-system", "badge": null },
+					{ "id": 3, "name": "Retail Management System", "path": "/products/retail-management", "badge": null },
+					{ "id": 4, "name": "Billing / Invoicing System", "path": "/products/billing-invoicing", "badge": null }
+				]
+			},
+			{
+				"id": 3,
+				"name": "Service & Operations Management",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Laundry Management System", "path": "/products/laundry-management", "badge": null },
+					{ "id": 2, "name": "Logistics/Dispatch Management", "path": "/products/logistics-dispatch", "badge": null },
+					{ "id": 3, "name": "Property/Facility Management", "path": "/products/property-facility", "badge": null }
+				]
+			},
+			{
+				"id": 4,
+				"name": "Healthcare, Education & Productivity",
+				"path": "#",
+				"items": [
+					{ "id": 1, "name": "Clinic/Medical Management", "path": "/products/clinic-medical", "badge": null },
+					{ "id": 2, "name": "School/Institute Management", "path": "/products/school-institute", "badge": null },
+					{ "id": 3, "name": "Helpdesk/Ticketing System", "path": "/products/helpdesk-ticketing", "badge": null },
+					{ "id": 4, "name": "Document Management (DMS)", "path": "/products/document-management", "badge": null }
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Company",
+		"path": "/company",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Case Studies",
+				"path": "/case-studies"
+			},
+			{
+				"id": 2,
+				"name": "Clients",
+				"path": "/clients"
+			},
+			{
+				"id": 3,
+				"name": "Partners",
+				"path": "/partners"
+			},
+			{
+				"id": 4,
+				"name": "Careers",
+				"path": "/careers"
+			},
+			{
+				"id": 5,
+				"name": "Insights",
+				"path": "/insights"
+			},
+			{
+				"id": 6,
+				"name": "Support & AMC",
+				"path": "/support-amc"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]
